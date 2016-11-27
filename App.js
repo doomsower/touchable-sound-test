@@ -44,7 +44,7 @@ export default class App extends Component {
           <Text style={styles.nestedText} onPress={() => this.handlePress('Nested text Sound OFF')}>Nested</Text>
           {' text '}
           <Text style={styles.nestedText} onPress={() => this.handlePress('Nested text Sound ON')} touchSoundEnabled={true}> sound </Text>
-          {' OFF '}
+          {' ON '}
         </Text>
 
       </View>
